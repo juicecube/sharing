@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "preserve",
+    "outDir": "./build",
+    "module": "esnext",
+    "lib": ["es2016", "dom"],
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true
+  },
+  "files": ["base/base.ts"],
+  "include": ["./*.tsx"]
+}

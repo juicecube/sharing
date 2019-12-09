@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react",
+    "outDir": "./build",
+    "module": "esnext",
+    "lib": ["es2016", "dom"],
+    "moduleResolution": "node",
+    "isolatedModules": false
+  },
+  "files": ["./test.tsx"],
+  "include": ["./*.tsx"]
+}

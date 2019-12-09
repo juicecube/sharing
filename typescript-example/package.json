@@ -1,0 +1,25 @@
+{
+  "name": "typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsconfig": "rm -rf tsconfig/build && tsc -p ./tsconfig"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juicecube/Typescript-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juicecube/Typescript-example/issues"
+  },
+  "homepage": "https://github.com/juicecube/Typescript-example#readme",
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "react": "^16.9.0",
+    "typescript": "^3.6.2"
+  }
+}
