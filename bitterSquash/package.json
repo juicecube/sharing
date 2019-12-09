@@ -1,0 +1,34 @@
+{
+  "name": "bittersquash",
+  "version": "1.0.0",
+  "description": "前端学习讨论",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "debugger": "node --inspect-brk ./node_modules/jest/bin/jest --runInBand --no-cache --no-watchman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juicecube/bitterSquash.git"
+  },
+  "keywords": [
+    "frontend",
+    "js",
+    "ts"
+  ],
+  "author": "juiceCube",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juicecube/bitterSquash/issues"
+  },
+  "homepage": "https://github.com/juicecube/bitterSquash#readme",
+  "dependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.6",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "babel-preset-env": "1.7.0",
+    "eslint-plugin-jest": "22.0.0",
+    "jest": "^24.8.0"
+  }
+}

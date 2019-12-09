@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": false,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "target": "es6",
+    "lib": ["dom", "es2016"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true
+  }
+}

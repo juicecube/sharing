@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6"
+  }
+}
