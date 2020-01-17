@@ -1,5 +1,5 @@
 // 模块 (下划线是不生成css文件） // 新的模块解析
-@import 'base';
+@use 'base';
 // @use 'base' as *
 // @use 'base' as b
 
