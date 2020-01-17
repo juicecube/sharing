@@ -1,0 +1,32 @@
+html {
+  font: 100% Helvetica, sans-serif;
+}
+
+body {
+  color: #dccc;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.text {
+  color: #ddd;
+}
+
+.message {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=index.css.map */

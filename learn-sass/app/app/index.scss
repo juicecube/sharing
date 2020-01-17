@@ -1,0 +1,51 @@
+// 模块 (下划线是不生成css文件） // 新的模块解析
+@import 'base';
+// @use 'base' as *
+// @use 'base' as b
+
+// 变量
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #dccc;
+body {
+  color: $primary-color;
+  // font: base.$font-stack;
+  // @include base.color(#fff);
+}
+
+// 嵌套
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li { display: inline-block; }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+// 混合
+@mixin color($val) {
+  color: $val;
+}
+.text {
+  @include color(#ddd);
+}
+
+// 继承
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+.message {
+  @extend %equal-heights;
+}
+
+// 计算
+// article {
+//   float: left;
+//   width: 600px / 960px * 100%;
+// }

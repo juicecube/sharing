@@ -1,0 +1,9 @@
+$font-stack:    Helvetica, sans-serif;
+
+html {
+  font: 100% $font-stack;
+}
+
+@mixin color($val) {
+  color: $val;
+}
